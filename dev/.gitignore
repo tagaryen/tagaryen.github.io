@@ -1,0 +1,3 @@
+archer-home/node_modules/**
+archer-home/.vscode/**
+archer-home/dist/**
