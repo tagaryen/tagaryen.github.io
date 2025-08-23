@@ -1,4 +1,4 @@
-# \# Welcome to Archer Tagrayen Home  
+# Welcome to Archer Tagrayen Home
 
-see homepage\[https://tagaryen.github.io]
+see \[homepage](https://tagaryen.github.io)
 
