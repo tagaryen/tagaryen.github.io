@@ -1,4 +1,4 @@
-# Welcome to Archer Tagrayen Home
+# Welcome to Archer Tagaryen Home
 
 see [homepage](https://tagaryen.github.io)
 
