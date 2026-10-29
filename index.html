@@ -1,14 +1,20 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg" href="/favicon.svg"><title>Archer</title><link href="/css/app.5cd477eb.css" rel="preload" as="style"><link href="/css/vendors~app.d0e73bc3.css" rel="preload" as="style"><link href="/js/app.35b10ca9.js" rel="preload" as="script"><link href="/js/npm.vue.92b49f75.js" rel="preload" as="script"><link href="/js/vendors~app.b38811d2.js" rel="preload" as="script"><link href="/css/vendors~app.d0e73bc3.css" rel="stylesheet"><link href="/css/app.5cd477eb.css" rel="stylesheet"></head><body><div id="app"></div><style>html body {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg" href="/favicon.svg"><title>Archer</title><link href="/css/app.ac5daaea.css" rel="preload" as="style"><link href="/css/vendors~app.d0e73bc3.css" rel="preload" as="style"><link href="/js/app.f774ae4e.js" rel="preload" as="script"><link href="/js/npm.vue.92b49f75.js" rel="preload" as="script"><link href="/js/vendors~app.554b16f0.js" rel="preload" as="script"><link href="/css/vendors~app.d0e73bc3.css" rel="stylesheet"><link href="/css/app.ac5daaea.css" rel="stylesheet"></head><body><div id="app"></div><style>html body {
         -ms-overflow-style: none;
         height: 100vh;
       }
 
       body {
         background-size: 100% 100%;
-        background-image: linear-gradient(rgba(220, 221, 250, 0.5), rgba(95, 86, 154, 0.5)), url("./bg.jpg");
+        /* 日间模式：淡蓝白雾遮罩，清新通透 */
+        background-image: linear-gradient(rgba(228, 237, 254, 0.55), rgba(198, 212, 248, 0.55)), url("./bg.jpg");
         background-repeat: no-repeat;
         overflow: hidden;
       }
+
+      /* 夜间模式：深紫调遮罩 */
+      body.dark-theme {
+        background-image: linear-gradient(rgba(220, 221, 250, 0.5), rgba(95, 86, 154, 0.5)), url("./bg.jpg");
+      }
       ::-webkit-scrollbar {
         display: none;
-      }</style><script src="/js/npm.vue.92b49f75.js"></script><script src="/js/vendors~app.b38811d2.js"></script><script src="/js/app.35b10ca9.js"></script></body></html>
+      }</style><script src="/js/npm.vue.92b49f75.js"></script><script src="/js/vendors~app.554b16f0.js"></script><script src="/js/app.f774ae4e.js"></script></body></html>
